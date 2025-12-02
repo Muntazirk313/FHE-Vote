@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2022"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2022"
+  },
+  "exclude": ["node_modules", "types", "artifacts"],
+  "files": ["./hardhat.config.ts"],
+  "include": ["hardhat.config.ts", "tasks/**/*", "test/**/*", "deploy/**/*"]
+}

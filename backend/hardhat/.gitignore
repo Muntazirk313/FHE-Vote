@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+artifacts/
+types/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache
+cache/
+fhevmTemp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Hardhat
+deployments/
+coverage/
+
+# Generated files
+typechain/
+typechain-types/
+*.d.ts
+*.log
